@@ -108,3 +108,113 @@ cd my-app
 npm start
 ```
 Após o npm start terminar de carregar, abrirá uma aba no navegador com a aplicação default React sendo executada.
+
+### Conceitos iniciais
+
+O React surgiu de uma necessidade do Facebool, onde o código era grande e de difícil manutenção. O react veio como uma solução escalável e eficiente desenvolvido pelas pessoas engenheiras do Facebook. Com o tempo o React tornou-se open-source e cresceu na comunidade e grandes empresas passaram a utilizá-la.
+
+### História do React
+
+[A História do React](https://medium.com/@ppternunes/a-hist%C3%B3ria-do-react-ba346c416fe1) escrito por [Patrick Morais](https://medium.com/@ppternunes).
+
+Hoje o React é uma das principais bibliotecas Javascript para construção de interfaces de usuário. O time de desenvolvimento do Facebook o criou com objetivo de organizar, componentizar tornando
+muito mais eficiente partes da aplicação que a utilizam.
+
+O React tem como ideia principal dividir a aplicação em pequenos blocos, reutilizáveis ou não, que podem fazer a gestão das suas próprias
+informações através do seu estado (reagir a eventos, interaçõesm dados e etc). Assim toda vez que houver uma mudança de estado, o React renderiza novamente esse componente sem precisar atualizar outros blocos (componentes).
+
+A componentização permite utlizar funções específicas, estilizaçõesm teste e outras tecnologias no exato loccal em que ela será utilizada, permitindo refatorações simples, específicas e fácil de encontrar.
+
+### Ecossistema React
+
+**JSX**
+
+JSX é a sigla para Javascript Syntax Extension, é uma extensão de sintaxe para Javascript. Sua utilização é recomendada pela documentação
+React, pois demonstra como a interface deverá se comportar, de forma lógica e descritiva.
+
+
+Exemplo:
+```javascript
+const element = <h1>Hello, Tryber</h1>;
+```
+A construção de um elemento JSX é bem parecido com um elemento HTML, com
+pequenas diferenças para não haver conflito entre o HTML e JS. Um exemplo disso é a utilização de **className** ao invés de class que é uma palavra reservada Javascript.
+
+Mesmo resultado sem JSX
+
+```javascript
+//createElement recebe como paramêtro um componente, um objeto com as props, e conteúdo a ser encapsulado
+const element = React.createElement("h1", null, "Hello, world");
+```
+Uma aplicação toda desenvolvida dessa forma daria muito trabalho por
+isso o JSX. Em uma aplicação React o JSX não é obrigatório mas diminui
+a complexidade da criação de uma aplicação.
+
+### Incorporando expressões no JSX
+
+Por ser código Javascript, o JSX permite injeções de algoritmos dentro da estrutura HTML. É possível que se aplique diretamente na estrutura códigos que renderizarão outras diversas expressões, exemplo:
+
+```javascript
+const name = 'Bruce';
+const element = <h1>Hello, {name}</h1>;
+
+//Incorporando uma função
+function fullName (name, lastName) {
+  return `${name} ${lastName}`;
+}
+const element = <h1>Hello, {fullName(name, "Wayne")}</h1>;
+
+```
+
+### ReactDOM.render
+
+O ReactDOM.render é o responsável por renderizar e atualizar seu código
+dentro do HTML, exibindo seus elementos React.
+
+Todas as vezes que alguma alteração de código é feita, seja através de uma função ou interação de quem usa, o React DOM compara o elemento novo
+e seus elementos filhos com os anteriores e aplica mudanças somente onde
+é necessário.
+
+Diferente de elementos DOM nativos do navegador, elementos React são objetos simples e utilizam menos recursos. Pela atualização precisa do
+DOM, e pela sua composição, o React apresenta grandes avanços na velocidade de processamento.
+
+### CSS e Import
+
+O CSS no React é assim como se fazia no HTML você deve criar um arquivo
+.css para manter todo o seu código CSS então deverá importá-lo onde você
+deseja utiliza-lo incluindo suas classes e ids.
+
+### Criação de Componentes funcionais e de classe
+
+Como já dito o React permite criar uma tela como uma junção de diferentes pequenas peças reutilizáveis e com lógica isolada, os
+componentes.
+
+Esses componentes podem ser criados de duas formas:mediante funções ou
+com a criação de classes.
+
+As classes surgiram como um 'açucar sintático' no ES2015 (ES6) sobre funções, dando a possibilidade de criar novos objetos.
+
+### Métodos
+
+Uma classe pode possuir métodos, que são ações que toda entidade criada a partir de uma classe pode realizar.
+
+Podemos atribuir vários métodos - os quais podem, inclusive, alterar o próprio estado do objeto. 
+
+Em React, classe é uma das formas de renderizar os componentes na página. Então quando um componente precisa ser alterado, utilizamos componentes de classe, para que possamos utilizar seus estados para
+realizar essas alterações.
+
+### Ideia Central de Classes
+
+* Organizar código - Agrupar funções que fazem sentido juntas.
+* No React, uma classe será um elemento da tela ou seja um componente.
+
+### Classes e React
+
+A principal diferença entre o uso de componentes por classe e o uso de componentes por função é o fato de componentes gerados por classe tem acesso a métodos e ao estado próprios de qualquer componente React.
+
+Exemplo: Método **render()** que permite renderizar todo o conteúdo criado na tela, os quais são acessíveis somente por componentes criados
+por classe na maior parte das versões do React.
+
+OBS: Componentes de função não podem alterar seus estados.
+
+Componentes de classe podem alterar seus estados por meio de métodos específicos do React.
