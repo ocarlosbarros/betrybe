@@ -20,10 +20,10 @@ São mais de 1500 horas de formação que aborda **fundamentos de desenvolviment
 
 *Bloco 01 Unix & Bash*:
 
-[*] Fundamentos do Desenvolvimento Web
-[*] Introdução - Unix & Shell
-[*] Unix & Bash - Parte 1
-[*] Unix & Bash - Parte 2
+- [*] Fundamentos do Desenvolvimento Web
+- [*] Introdução - Unix & Shell
+- [*] Unix & Bash - Parte 1
+- [*] Unix & Bash - Parte 2
 
 *Bloco 02 Git, GitHub e Internet*:
 - [] Git & GitHub - O que é e para que serve
