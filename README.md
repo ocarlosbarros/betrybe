@@ -15,7 +15,7 @@ São mais de 1500 horas de formação que aborda **fundamentos de desenvolviment
 
 <details>
   <summary>
-    Módulo 1 - Fundamentos do Desenvolvimento Web
+    Módulo 1 - **Fundamentos do Desenvolvimento Web**
   </summary>
 
 *Bloco 01 Unix & Bash*:
