@@ -26,12 +26,12 @@ São mais de 1500 horas de formação que aborda **fundamentos de desenvolviment
 - [x] Unix & Bash - Parte 1
 - [x] Unix & Bash - Parte 2
 
-*Bloco **02** - **Git, GitHub e Internet***:
+***Bloco 02 - Git, GitHub e Internet***:
 - [x] Git & GitHub - O que é e para que serve
 - [x] Git & GitHub - Entendendo os comandos
 - [x] Internet - Entendendo como ela funciona
 
-*Bloco **03** - **Introdução à HTML e CSS***:
+***Bloco 03 - Introdução à HTML e CSS***:
 - [x] Introdução - HTML & CSS
 - [x] HTML & CSS - Estruturas de página
 - [x] HTML & CSS - Primeiros passos em CSS
@@ -39,7 +39,7 @@ São mais de 1500 horas de formação que aborda **fundamentos de desenvolviment
 - [x] HTML Semântico
 - [x] Projeto - Lessons Learned
 
-*Bloco **04** - **Introdução à Javascript e Lógica de Pogramação***:
+***Bloco 04 - Introdução à Javascript e Lógica de Pogramação***:
 - [x] Introdução - JavaScript
 - [x] Javascript - Primeiros passos JavaScript
 - [x] Javascript - Array e loop For
@@ -47,7 +47,7 @@ São mais de 1500 horas de formação que aborda **fundamentos de desenvolviment
 - [x] JavaScript - Objetos e funções
 - [x] Projeto - Playground Functions
 
-*Bloco **05** - **JavaScript: DOM, Eventos e Web Stage***:
+***Bloco 05 - JavaScript: DOM, Eventos e Web Stage***:
 - [x] JavaScript - DOM e seletores
 - [x] JavaScript - Trabalhando com elementos
 - [x] JavaScript - Eventos
@@ -59,7 +59,7 @@ São mais de 1500 horas de formação que aborda **fundamentos de desenvolviment
 - [ ] (Bônus) Projeto - Adivinhe a Cor
 - [ ] (Bônus) Projeto - Carta Misteriosa
 
-*Bloco **06** - **HTML e CSS: Forms, Flexbox e Responsivo***:
+***Bloco 06 - HTML e CSS: Forms, Flexbox e Responsivo***:
 - [x] HTML & CSS - Forms
 - [x] Bibliotecas JavaScript e Frameworks CSS
 - [x] Introdução - CSS Flexbox
@@ -68,13 +68,13 @@ São mais de 1500 horas de formação que aborda **fundamentos de desenvolviment
 - [x] CSS Responsivo - Mobile First
 - [x] Projeto - Trybewarts
 
-*Boco **07** - **Introdução à JavaScript ES6 e Testes Untários***:
+***Bloco 07 - Introdução à JavaScript ES6 e Testes Untários***:
 - [x] Javascript ES6 - let, const, arrow functions e template literal
 - [x] JavaScript ES6 - Objects
 - [x] Testes unitários em JavaScript
 - [x] Projeto - JavaScript Testes Unitários
 
-*Bloco **08** - **Higher Order Functions do JavaScript ES6***: 
+***Bloco 08 - Higher Order Functions do JavaScript ES6***: 
 - [x] JavaScript ES6 - Introdução a Higher Order Functions
 - [x] Javascript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [x] JavaScript ES6 - Higher Order Functions - map e filter
@@ -82,12 +82,12 @@ São mais de 1500 horas de formação que aborda **fundamentos de desenvolviment
 - [x] JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [x] Projeto - Zoo functions
 
-*Bloco **09** - **JavaScript Assíncrono e Promises***:
+***Bloco 09 - JavaScript Assíncrono e Promises***:
 - [x] JavaScript Assíncrono e Callbacks
 - [x] JavaScript Promises
 - [x] Projeto - Carrinho de Compras
 
-*Bloco **10** - **Testes automatizados com Jest***:
+***Bloco 10 - Testes automatizados com Jest***:
 - [x] Primeiros passos no Jest
 - [x] Jest - Testes Assíncronos
 - [x] Jest - Simulando comportamentos
@@ -99,34 +99,34 @@ São mais de 1500 horas de formação que aborda **fundamentos de desenvolviment
 Móulo 2 - Desenvolvimento Front-end
 </summary>
 
-*Bloco **11** - **Introdução à React***: 
+***Bloco 11 - Introdução à React***: 
 - [ ] Introdução - Front-end 
 - [ ] Introdução - React
 - [ ] 'Hello, world!' no React!
 - [ ] Componentes React
 - [ ] Projeto - Movie Cards Library
 
-*Bloco **12** - **Componentes com Estado, Eventos e Formulários com React***:
+***Bloco 12 - Componentes com Estado, Eventos e Formulários com React***:
 - [ ] Componentes com estado e eventos
 - [ ] Formulários no React
 - [ ] Projeto - Movie Cards Library Stateful
 
-*Bloco **13** - **Ciclo de Vida de Componentes e React Router***:
+***Bloco 13 - Ciclo de Vida de Componentes e React Router***:
 - [ ] Ciclo de vida de componentes
 - [ ] React Router
 - [ ] Projeto - Movie Cards Library CRUD
 
-*Bloco **14** - **Metodologias Ágeis***:
+***Bloco 14 - Metodologias Ágeis***:
 - [ ] Metodologias Ágeis
 - [ ] Projeto - Frontend Online Store
 
-*Bloco **15** - **Testes automatizados com React Testing Library***:
+***Bloco 15 - Testes automatizados com React Testing Library***:
 - [ ] RTL - Primeiros passos
 - [ ] RTL - Mocks e Inputs
 - [ ] RTL - Testando React Router
 - [ ] Projeto - Testes em React
 
-*Bloco **16** - **Gerenciamento de estado com Redux***:
+***Bloco 16 - Gerenciamento de estado com Redux***:
 - [ ] Introdução ao Redux - O estado global da aplicação
 - [ ] Usando o Redux no React
 - [ ] Usando o Redux no React - Prática
@@ -134,16 +134,16 @@ Móulo 2 - Desenvolvimento Front-end
 - [ ] Testes em React-Redux
 - [ ] Projeto - Trybe Wallet
 
-*Bloco **17** - **Projeto Jogo de Trivia***: 
+***Bloco 17 - Projeto Jogo de Trivia***: 
 - [ ] Projeto - Jogo de Trivia
 
-*Bloco **18** - **Context API e React Hooks***: 
+***Bloco 18 - Context API e React Hooks***: 
 - [ ] Context API do React
 - [ ] React Hooks - useState e useContext
 - [ ] React Hooks - useEffect e Hooks customizados
 - [ ] Projeto - StarWars Datatable com Context API e Hooks
 
-*Bloco **19** - **Projeto App de Receitas***:
+***Bloco 19 - Projeto App de Receitas***:
 - [ ] Projeto App de Receitas
 </details>
 
