@@ -20,77 +20,77 @@ São mais de 1500 horas de formação que aborda **fundamentos de desenvolviment
 
 *Bloco 01 Unix & Bash*:
 
-- [*] Fundamentos do Desenvolvimento Web
-- [*] Introdução - Unix & Shell
-- [*] Unix & Bash - Parte 1
-- [*] Unix & Bash - Parte 2
+- [x] Fundamentos do Desenvolvimento Web
+- [x] Introdução - Unix & Shell
+- [x] Unix & Bash - Parte 1
+- [x] Unix & Bash - Parte 2
 
 *Bloco 02 Git, GitHub e Internet*:
-- [] Git & GitHub - O que é e para que serve
-- [] Git & GitHub - Entendendo os comandos
-- [] Internet - Entendendo como ela funciona
+- [x] Git & GitHub - O que é e para que serve
+- [x] Git & GitHub - Entendendo os comandos
+- [x] Internet - Entendendo como ela funciona
 
 *Bloco 03 Introdução à HTML e CSS*:
-- [] Introdução - HTML & CSS
-- [] HTML & CSS - Estruturas de página
-- [] HTML & CSS - Primeiros passos em CSS
-- [] HTML & CSS - Seletores e posicionamento
-- [] HTML Semântico
-- [] Projeto - Lessons Learned
+- [x] Introdução - HTML & CSS
+- [x] HTML & CSS - Estruturas de página
+- [x] HTML & CSS - Primeiros passos em CSS
+- [x] HTML & CSS - Seletores e posicionamento
+- [x] HTML Semântico
+- [x] Projeto - Lessons Learned
 
 *Bloco 04 Introdução à Javascript e Lógica de Pogramação*:
-- [] Introdução - JavaScript
-- [] Javascript - Primeiros passos JavaScript
-- [] Javascript - Array e loop For
-- [] JavaScript - Lógica de Programação e Algoritmos
-- [] JavaScript - Objetos e funções
-- [] Projeto - Playground Functions
+- [x] Introdução - JavaScript
+- [x] Javascript - Primeiros passos JavaScript
+- [x] Javascript - Array e loop For
+- [x] JavaScript - Lógica de Programação e Algoritmos
+- [x] JavaScript - Objetos e funções
+- [x] Projeto - Playground Functions
 
 *Bloco 05 JavaScript: DOM, Eventos e Web Stage*:
-- [] JavaScript - DOM e seletores
-- [] JavaScript - Trabalhando com elementos
-- [] JavaScript - Eventos
-- [] JavaScript - Web Storage
-- [] Fundamentos - JavaScript - Projetos
-- [] Projeto - Arte com Pixels
-- [] Projeto - Lista de tarefas
+- [x] JavaScript - DOM e seletores
+- [x] JavaScript - Trabalhando com elementos
+- [x] JavaScript - Eventos
+- [x] JavaScript - Web Storage
+- [x] Fundamentos - JavaScript - Projetos
+- [x] Projeto - Arte com Pixels
+- [x] Projeto - Lista de tarefas
 - [] (Bônus) Projeto - Meme Generator
 - [] (Bônus) Projeto - Adivinhe a Cor
 - [] (Bônus) Projeto - Carta Misteriosa
 
 *Bloco 06 HTML e CSS: Forms, Flexbox e Responsivo*:
-- [] HTML & CSS - Forms
-- [] Bibliotecas JavaScript e Frameworks CSS
-- [] Introdução - CSS Flexbox
-- [] CSS Flexbox - Parte 1
-- [] CSS Flexbox - Parte 2
-- [] CSS Responsivo - Mobile First
-- [] Projeto - Trybewarts
+- [x] HTML & CSS - Forms
+- [x] Bibliotecas JavaScript e Frameworks CSS
+- [x] Introdução - CSS Flexbox
+- [x] CSS Flexbox - Parte 1
+- [x] CSS Flexbox - Parte 2
+- [x] CSS Responsivo - Mobile First
+- [x] Projeto - Trybewarts
 
 *Boco 07  Introdução à JavaScript ES6 e Testes Untários*:
-- [] Javascript ES6 - let, const, arrow functions e template literal
-- [] JavaScript ES6 - Objects
-- [] Testes unitários em JavaScript
-- [] Projeto - JavaScript Testes Unitários
+- [x] Javascript ES6 - let, const, arrow functions e template literal
+- [x] JavaScript ES6 - Objects
+- [x] Testes unitários em JavaScript
+- [x] Projeto - JavaScript Testes Unitários
 
 *Bloco 08  Higher Order Functions do JavaScript ES6*: 
-- [] JavaScript ES6 - Introdução a Higher Order Functions
-- [] Javascript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [] JavaScript ES6 - Higher Order Functions - map e filter
-- [] JavaScript ES6 - Higher Order Functions - reduce
-- [] JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [] Projeto - Zoo functions
+- [x] JavaScript ES6 - Introdução a Higher Order Functions
+- [x] Javascript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [x] JavaScript ES6 - Higher Order Functions - map e filter
+- [x] JavaScript ES6 - Higher Order Functions - reduce
+- [x] JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [x] Projeto - Zoo functions
 
 *Bloco 09 JavaScript Assíncrono e Promises*:
-- [] JavaScript Assíncrono e Callbacks
-- [] JavaScript Promises
-- [] Projeto - Carrinho de Compras
+- [x] JavaScript Assíncrono e Callbacks
+- [x] JavaScript Promises
+- [x] Projeto - Carrinho de Compras
 
 *Bloco 10 Testes automatizados com Jest*:
-- [] Primeiros passos no Jest
-- [] Jest - Testes Assíncronos
-- [] Jest - Simulando comportamentos
-- [] Projeto - Jest Assíncrono e Mocking
+- [x] Primeiros passos no Jest
+- [x] Jest - Testes Assíncronos
+- [x] Jest - Simulando comportamentos
+- [x] Projeto - Jest Assíncrono e Mocking
 </details>
 
 <details>
