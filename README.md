@@ -18,17 +18,27 @@ São mais de 1500 horas de formação que aborda **fundamentos de desenvolviment
 Módulo 1 - Fundamentos do Desenvolvimento Web
      </summary>
 
-*Bloco 01 Unix & Bash*:
+<details>
+<summary>
+    Bloco 01 Unix & Bash
+</summary>
+  <details>
 - [*] Fundamentos do Desenvolvimento Web
 - [*] Introdução - Unix & Shell
 - [*] Unix & Bash - Parte 1
 - [*] Unix & Bash - Parte 2
+    </details>
+</details>
+
+<details>
 
 *Bloco 02 Git, GitHub e Internet*:
 - [] Git & GitHub - O que é e para que serve
 - [] Git & GitHub - Entendendo os comandos
 - [] Internet - Entendendo como ela funciona
+</details>
 
+<details>
 *Bloco 03 Introdução à HTML e CSS*:
 - [] Introdução - HTML & CSS
 - [] HTML & CSS - Estruturas de página
@@ -36,7 +46,9 @@ Módulo 1 - Fundamentos do Desenvolvimento Web
 - [] HTML & CSS - Seletores e posicionamento
 - [] HTML Semântico
 - [] Projeto - Lessons Learned
+</details>
 
+<details>
 *Bloco 04 Introdução à Javascript e Lógica de Pogramação*:
 - [] Introdução - JavaScript
 - [] Javascript - Primeiros passos JavaScript
@@ -44,7 +56,9 @@ Módulo 1 - Fundamentos do Desenvolvimento Web
 - [] JavaScript - Lógica de Programação e Algoritmos
 - [] JavaScript - Objetos e funções
 - [] Projeto - Playground Functions
+</details>
 
+<details>
 *Bloco 05 JavaScript: DOM, Eventos e Web Stage*:
 - [] JavaScript - DOM e seletores
 - [] JavaScript - Trabalhando com elementos
@@ -56,7 +70,9 @@ Módulo 1 - Fundamentos do Desenvolvimento Web
 - [] (Bônus) Projeto - Meme Generator
 - [] (Bônus) Projeto - Adivinhe a Cor
 - [] (Bônus) Projeto - Carta Misteriosa
+</details>
 
+<details>
 *Bloco 06 HTML e CSS: Forms, Flexbox e Responsivo*:
 - [] HTML & CSS - Forms
 - [] Bibliotecas JavaScript e Frameworks CSS
@@ -65,13 +81,17 @@ Módulo 1 - Fundamentos do Desenvolvimento Web
 - [] CSS Flexbox - Parte 2
 - [] CSS Responsivo - Mobile First
 - [] Projeto - Trybewarts
+</details>
 
+<details>
 *Boco 07  Introdução à JavaScript ES6 e Testes Untários*:
 - [] Javascript ES6 - let, const, arrow functions e template literal
 - [] JavaScript ES6 - Objects
 - [] Testes unitários em JavaScript
 - [] Projeto - JavaScript Testes Unitários
+</details>
 
+<details>
 *Bloco 08  Higher Order Functions do JavaScript ES6*: 
 - [] JavaScript ES6 - Introdução a Higher Order Functions
 - [] Javascript ES6 - Higher Order Functions - forEach, find, some, every, sort
@@ -79,18 +99,22 @@ Módulo 1 - Fundamentos do Desenvolvimento Web
 - [] JavaScript ES6 - Higher Order Functions - reduce
 - [] JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [] Projeto - Zoo functions
+</details>
 
+<details>
 *Bloco 09 JavaScript Assíncrono e Promises*:
 - [] JavaScript Assíncrono e Callbacks
 - [] JavaScript Promises
 - [] Projeto - Carrinho de Compras
+</details>
 
+<details>
 *Bloco 10 Testes automatizados com Jest*:
 - [] Primeiros passos no Jest
 - [] Jest - Testes Assíncronos
 - [] Jest - Simulando comportamentos
 - [] Projeto - Jest Assíncrono e Mocking
-
+</details>
 
 <details>
    <summary>
