@@ -53,5 +53,17 @@ todos os dados passados como parâmetro na hora de chamar o componente. Ao chama
 As props são umas das partes mais importantes de um componente. São por elas que você passa os valores
 para o componente, e é como o torna reutilizável em diferentes contextos. São como parâmetros da função.
 
+## Composição de Componentes
+
+Em React faz-se uso de composição de componentes.
+
+Então o que seria composição ?
+São elementos ordenados de forma a construir algo maior e mais complexo.
+
+Componentes React podem conter um ou mais componentes! Isso permite a reutilização e a redução
+do nível de complexidade de códigos.
+
+Todos os nomes dos componentes React são iniciados com letra maiúscula. É uma simples mas importante, regra de sintaxe do React.
+Essa norma existe para que o React diferencie tags do DOM dos components React dos elementos HTML.
 
 
