@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class UserOtherInfo extends Component {
   render() {
@@ -10,6 +11,11 @@ class UserOtherInfo extends Component {
       </div>
     );
   }
+}
+
+UserOtherInfo.propTypes = {
+  email: PropTypes.string,
+  avatar: PropTypes.string,
 }
 
 export default UserOtherInfo;

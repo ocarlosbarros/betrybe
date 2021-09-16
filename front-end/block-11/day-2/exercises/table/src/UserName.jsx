@@ -13,6 +13,10 @@ class UserName extends Component {
   }
 }
 
+UserName.defaultProps = {
+  name:'Stranger'
+}
+
 UserName.propTypes = {
   name:PropTypes.string.isRequired,
 }
