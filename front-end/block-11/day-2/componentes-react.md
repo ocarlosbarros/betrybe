@@ -64,6 +64,7 @@ Componentes React podem conter um ou mais componentes! Isso permite a reutiliza�
 do nível de complexidade de códigos.
 
 Todos os nomes dos componentes React são iniciados com letra maiúscula. É uma simples mas importante, regra de sintaxe do React.
+
 Essa norma existe para que o React diferencie tags do DOM dos components React dos elementos HTML.
 
 
