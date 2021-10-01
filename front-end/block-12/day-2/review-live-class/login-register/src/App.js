@@ -1,16 +1,36 @@
 import React, { Component } from 'react';
 
 import LoginForm from './components/LoginForm';
-import RegisterForm from './components/RegisterForm';
 
 import './App.css';
 
 class App extends Component{
+  constructor(){
+    super();
+    this.state = {
+      emails:[]
+    }
+  }
+  handleChange =  ({ emailList }) => {
+   this.setState((prevState) => ({
+    emails:[
+      ...prevState.emails,
+      emailList
+    ]
+   }));
+  }
   render(){
+    const { emails } = this.state;
     return (
       <main className="App">
-        <LoginForm />
-        <RegisterForm />
+        <LoginForm onChange={ this.handleChange } />
+        <ul>
+          { emails.length ? emails.map(email => ( 
+          <li key={ email } >
+            { email }
+          </li>)) : undefined
+          }
+        </ul>
       </main>
       );
   }

@@ -1,33 +1,48 @@
 import React, { Component } from 'react';
 
+import Button from './Button';
+import Input from './Input';
+
 class LoginForm extends Component {
   constructor(){
     super();
     this.state = {
-      email:''
+      email:'',
+      password:'',
+      emailList:[]
     }
-    this.handleChange = this.handleChange.bind(this);
   }
-  handleChange(event){
-    this.setState({email: event.target.value});
-  }
+
+  handleChange = ({ target: { name, value }}) => {
+    this.setState({
+    [name]:value
+  })
+}
+
+  onSubmitForm = (e) => {
+    e.preventDefault();
+    const { onChange } = this.props;
+    const { emailList }  = this.state;
+    this.setState(this.setState(({ emailList }) => ({
+      emailList: 
+      [
+      ...emailList,
+      e.target[0].value
+      ]
+    })), () => {
+      onChange({ emailList });
+  });
+}
+
   render(){
-    const {email} = this.state;
+    const { email, password } = this.state;
     return (
-      <section className="login-form">
-        <h1>Login</h1>
-        <form>
-          <label htmlFor="email">
-            <input 
-            value={ email } 
-            type="email" 
-            name="email" 
-            id="email"
-            onChange={ this.handleChange }
-            />
-          </label>
-        </form>
-      </section>
+      <form onSubmit={ this.onSubmitForm }>
+        <Input type="email" name="email" value={ email } onChange={ this.handleChange } />
+        <Input type="password" name="password" value={ password } onChange={ this.handleChange } />
+        <Button value="Login" />
+      </form>
+      
     );
   }
 }
