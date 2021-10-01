@@ -1,0 +1,12 @@
+.form
+{
+  border:1px solid black;
+  flex-direction:column;
+  display:flex;
+  padding:1em;
+  width:550px;
+}
+
+input, textarea, select {
+  margin:1em;
+}
