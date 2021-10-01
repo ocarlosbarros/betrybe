@@ -1,0 +1,25 @@
+.card-pokemon{
+  border:1px solid #000;
+  border-radius:10px;
+  box-shadow:3px 3px 5px rgba(0,0,0,0.5);
+  margin:2em;
+  padding:1em;
+
+}
+
+.flex {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.img-container, .info-container {
+  margin:auto;
+  padding:0.5em;
+  width:90%;
+
+}
+
+h2, p {
+  margin:0.5em;
+}
