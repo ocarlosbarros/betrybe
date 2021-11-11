@@ -18,13 +18,13 @@ const reducer =( state = INITIAL_STATE, action ) => {
   switch(action.type){
     case NEXT_COLOR:
     return { 
-      ...state,
-      index: index < state.colors.length && state.index + 1
+      colors: state.colors,
+      index: state.index < state.colors.length ? state.index + 1 : 0,
     }
     case PREVIOUS_COLOR:
     return { 
-      ...state,
-      index: index >= 0 && state.index - 1
+      colors: state.colors,
+      index: state.index >  0 ? state.index - 1 : 0, 
     }
     default:
     return state;
@@ -35,14 +35,16 @@ const reducer =( state = INITIAL_STATE, action ) => {
 const store = Redux.createStore(reducer);
 
 //Adiciona eventListener para nextBtn
-const nextBtn = document.getElementById('previous');
+const nextBtn = document.getElementById('next');
 nextBtn.addEventListener('click', () => {
-  console.log('next');
+  console.log('Antes', store.getState())
+  store.dispatch(goToNextOrPreviousColor(NEXT_COLOR))
+  console.log('Depois', store.getState())
 })
 //Adiciona eventListener para previousBtn
-const previousBtn = document.getElementById('next');
+const previousBtn = document.getElementById('previous');
 previousBtn.addEventListener('click', () => {
-  console.log('previous');
+  console.log('Antes', store.getState())
+  store.dispatch(goToNextOrPreviousColor(PREVIOUS_COLOR))
+  console.log('Depois', store.getState())
 })
-
-console.log(store.getState())
