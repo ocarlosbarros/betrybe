@@ -24,7 +24,7 @@ const reducer =( state = INITIAL_STATE, action ) => {
     case PREVIOUS_COLOR:
     return { 
       ...state,
-      index: index < state.colors.length && state.index - 1
+      index: index >= 0 && state.index - 1
     }
     default:
     return state;
@@ -33,5 +33,16 @@ const reducer =( state = INITIAL_STATE, action ) => {
 
 //Criação da store recebendo como parâmetro obrigatório o reducer para seu funcionamento
 const store = Redux.createStore(reducer);
+
+//Adiciona eventListener para nextBtn
+const nextBtn = document.getElementById('previous');
+nextBtn.addEventListener('click', () => {
+  console.log('next');
+})
+//Adiciona eventListener para previousBtn
+const previousBtn = document.getElementById('next');
+previousBtn.addEventListener('click', () => {
+  console.log('previous');
+})
 
 console.log(store.getState())
