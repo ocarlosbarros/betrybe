@@ -9,9 +9,12 @@ const INITIAL_STATE = {
 const NEXT_COLOR = 'NEXT_COLOR';
 const PREVIOUS_COLOR = 'PREVIOUS_COLOR';
 
+const goToNextOrPreviousColor = (typeName) => {
+  return { type: typeName }
+} 
 
 //Criação do reducer
-const reducer =( state = INITIAL_STATE ) => {
+const reducer =( state = INITIAL_STATE, action ) => {
   switch('action'){
     default:
     return state;
