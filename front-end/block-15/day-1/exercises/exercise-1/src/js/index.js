@@ -15,7 +15,17 @@ const goToNextOrPreviousColor = (typeName) => {
 
 //Criação do reducer
 const reducer =( state = INITIAL_STATE, action ) => {
-  switch('action'){
+  switch(action.type){
+    case NEXT_COLOR:
+    return { 
+      ...state,
+      index: index < state.colors.length && state.index + 1
+    }
+    case PREVIOUS_COLOR:
+    return { 
+      ...state,
+      index: index < state.colors.length && state.index - 1
+    }
     default:
     return state;
   }
@@ -23,3 +33,5 @@ const reducer =( state = INITIAL_STATE, action ) => {
 
 //Criação da store recebendo como parâmetro obrigatório o reducer para seu funcionamento
 const store = Redux.createStore(reducer);
+
+console.log(store.getState())
