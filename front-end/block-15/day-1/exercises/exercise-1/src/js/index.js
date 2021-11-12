@@ -45,7 +45,7 @@ const reducer =( state = INITIAL_STATE, action ) => {
     return {
       ...state,
       colors:[...state.colors, color],
-      index:LAST_ELEMENT_IN_LIST,
+      index:SIZE_LIST,
     }
     default:
     return state;
@@ -71,7 +71,6 @@ previousBtn.addEventListener('click', () => {
 const randomBtn = document.getElementById('random');
 randomBtn.addEventListener('click', () => {
   store.dispatch(goToNextOrPreviousColor(RANDOM_COLOR));
-    console.log('random', store.getState());
 })
 
 const showColor = (color) => {
