@@ -1,25 +1,25 @@
-const ESTADO_INICIAL_1 = {
-  nome: 'Rodrigo',
-  sobrenome: 'Santos da Silva',
-  endereco: 'Rua Soldado Mathias, 765',
-  cidade: 'Belo Horizonte',
+const INITIAL_STATE_1 = {
+  name: 'Rodrigo',
+  lastName: 'Santos da Silva',
+  address: 'Rua Soldado Mathias, 765',
+  city: 'Belo Horizonte',
 };
 
-const ESTADO_INICIAL_2 = {
-  nome: 'Bruna',
-  sobrenome: 'Santana Oliveira',
-  endereco: 'Rua Holanda, 332',
-  cidade: 'São Paulo',
+const INITIAL_STATE_2 = {
+  name: 'Bruna',
+  lastName: 'Santana Oliveira',
+  address: 'Rua Holanda, 332',
+  city: 'São Paulo',
 };
 
-const meuPrimeiroReducer = (state = ESTADO_INICIAL_1, action) => {
+const firstReducer = (state = INITIAL_STATE_1, action) => {
   switch (action.type) {
     default:
       return state;
   }
 };
 
-const meuSegundoReducer = (state = ESTADO_INICIAL_2, action) => {
+const secondReducer = (state = INITIAL_STATE_2, action) => {
   switch (action.type) {
     default:
       return state;
