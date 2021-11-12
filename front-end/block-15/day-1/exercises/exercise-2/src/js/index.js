@@ -1,3 +1,5 @@
+import reducers from "./reducers";
+
 const INITIAL_STATE_1 = {
   name: 'Rodrigo',
   lastName: 'Santos da Silva',
@@ -25,3 +27,4 @@ const secondReducer = (state = INITIAL_STATE_2, action) => {
       return state;
   }
 };
+
