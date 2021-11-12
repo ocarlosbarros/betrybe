@@ -8,7 +8,7 @@ const NEXT_COLOR = 'NEXT_COLOR';
 const PREVIOUS_COLOR = 'PREVIOUS_COLOR';
 const RANDOM_COLOR = 'RANDOM_COLOR';
 
-const FIRST_ELEMENT_IN_LIST = ist = 0
+const FIRST_ELEMENT_IN_LIST = 0
 const NEXT_OR_PREVIOUS_ELEMENT = 1; 
 
 const goToNextOrPreviousColor = (typeName) => {
@@ -27,24 +27,25 @@ function createColor() {
 
 //Criação do reducer
 const reducer =( state = INITIAL_STATE, action ) => {
-  const LAST_ELEMENT_IN_LIST = state.colors.length - 1;
+  const SIZE_LIST = state.colors.length;
   
   switch(action.type){
     case NEXT_COLOR:
       return { 
-        colors: state.colors,
-        index: state.index < LAST_ELEMENT_IN_LIST ? state.index + NEXT_OR_PREVIOUS_ELEMENT : FIRST_ELEMENT_IN_LIST,
+        ...state,
+        index: state.index === SIZE_LIST - NEXT_OR_PREVIOUS_ELEMENT ? FIRST_ELEMENT_IN_LIST : state.index + NEXT_OR_PREVIOUS_ELEMENT,
     }
     case PREVIOUS_COLOR:
     return { 
-      colors: state.colors,
-      index: state.index >  0 ? state.index - NEXT_OR_PREVIOUS_ELEMENT : FIRST_ELEMENT_IN_LIST, 
+      ...state,
+      index: state.index === FIRST_ELEMENT_IN_LIST ? SIZE_LIST - NEXT_OR_PREVIOUS_ELEMENT : state.index - NEXT_OR_PREVIOUS_ELEMENT, 
     }
     case RANDOM_COLOR:
     const color = createColor();
     return {
+      ...state,
       colors:[...state.colors, color],
-      index:0,
+      index:LAST_ELEMENT_IN_LIST,
     }
     default:
     return state;
@@ -73,11 +74,18 @@ randomBtn.addEventListener('click', () => {
     console.log('random', store.getState());
 })
 
-
-
 const showColor = (color) => {
-  const colorValue = document.getElementById('value')
+  const colorValue = document.getElementById('value');
+  const container = document.getElementById('container');
   colorValue.innerText = color;
+  
+  if(color === 'black') {
+    colorValue.style.color = 'white';
+    container.style.backgroundColor = color;
+  }else{
+    colorValue.style.color = 'black';
+    container.style.backgroundColor = color;
+  }
 }
 
 //Adiciona subscribe
