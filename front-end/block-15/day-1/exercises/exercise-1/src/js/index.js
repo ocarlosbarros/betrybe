@@ -43,7 +43,6 @@ const reducer =( state = INITIAL_STATE, action ) => {
     case RANDOM_COLOR:
     const color = createColor();
     return {
-      ...state,
       colors:[...state.colors, color],
       index:SIZE_LIST,
     }

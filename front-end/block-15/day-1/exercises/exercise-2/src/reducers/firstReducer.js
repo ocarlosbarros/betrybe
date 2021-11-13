@@ -7,13 +7,6 @@ const INITIAL_STATE_1 = {
   city: 'Belo Horizonte',
 };
 
-const INITIAL_STATE_2 = {
-  name: 'Bruna',
-  lastName: 'Santana Oliveira',
-  address: 'Rua Holanda, 332',
-  city: 'São Paulo',
-};
-
 const firstReducer = (state = INITIAL_STATE_1, action) => {
   switch (action.type) {
     default:
@@ -28,3 +21,4 @@ const secondReducer = (state = INITIAL_STATE_2, action) => {
   }
 };
 
+export default firstReducer;
