@@ -37,13 +37,12 @@ const reducer =( state = INITIAL_STATE, action ) => {
     }
     case PREVIOUS_COLOR:
     return { 
-      ...state,
+      colors:[...state.colors],
       index: state.index === FIRST_ELEMENT_IN_LIST ? SIZE_LIST - NEXT_OR_PREVIOUS_ELEMENT : state.index - NEXT_OR_PREVIOUS_ELEMENT, 
     }
     case RANDOM_COLOR:
     const color = createColor();
     return {
-      ...state,
       colors:[...state.colors, color],
       index:SIZE_LIST,
     }
