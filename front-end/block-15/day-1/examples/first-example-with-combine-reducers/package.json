@@ -1,5 +1,5 @@
 {
-  "name": "first-example-with-combine-redux",
+  "name": "first-example-with-combine-reducers",
   "version": "1.0.0",
   "main": "src/index.js",
   "type": "module",
