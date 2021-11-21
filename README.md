@@ -100,38 +100,38 @@ Móulo 2 - Desenvolvimento Front-end
 </summary>
 
 ***Bloco 11 - Introdução à React***: 
-- [ ] Introdução - Front-end 
-- [ ] Introdução - React
-- [ ] 'Hello, world!' no React!
-- [ ] Componentes React
-- [ ] Projeto - Movie Cards Library
+- [x] Introdução - Front-end 
+- [x] Introdução - React
+- [x] 'Hello, world!' no React!
+- [x] Componentes React
+- [x] Projeto - Movie Cards Library
 
 ***Bloco 12 - Componentes com Estado, Eventos e Formulários com React***:
-- [ ] Componentes com estado e eventos
-- [ ] Formulários no React
-- [ ] Projeto - Movie Cards Library Stateful
+- [x] Componentes com estado e eventos
+- [x] Formulários no React
+- [x] Projeto - Trybetrunfo
 
 ***Bloco 13 - Ciclo de Vida de Componentes e React Router***:
-- [ ] Ciclo de vida de componentes
-- [ ] React Router
-- [ ] Projeto - Movie Cards Library CRUD
+- [x] Ciclo de vida de componentes
+- [x] React Router
+- [x] Projeto - TrybeTunes
 
 ***Bloco 14 - Metodologias Ágeis***:
-- [ ] Metodologias Ágeis
-- [ ] Projeto - Frontend Online Store
+- [x] Metodologias Ágeis
+- [x] Projeto - Frontend Online Store
 
 ***Bloco 15 - Testes automatizados com React Testing Library***:
-- [ ] RTL - Primeiros passos
-- [ ] RTL - Mocks e Inputs
-- [ ] RTL - Testando React Router
-- [ ] Projeto - Testes em React
+- [x] RTL - Primeiros passos
+- [x] RTL - Mocks e Inputs
+- [x] RTL - Testando React Router
+- [x] Projeto - React Testing Library
 
 ***Bloco 16 - Gerenciamento de estado com Redux***:
-- [ ] Introdução ao Redux - O estado global da aplicação
-- [ ] Usando o Redux no React
-- [ ] Usando o Redux no React - Prática
-- [ ] Usando o Redux no React - Actions Assíncronas
-- [ ] Testes em React-Redux
+- [x] Introdução ao Redux - O estado global da aplicação
+- [x] Usando o Redux no React
+- [x] Usando o Redux no React - Prática
+- [x] Usando o Redux no React - Actions Assíncronas
+- [x] Testes em React-Redux
 - [ ] Projeto - Trybe Wallet
 
 ***Bloco 17 - Projeto Jogo de Trivia***: 
