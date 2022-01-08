@@ -1,19 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ListTasks from './components/ListTasks';
 import TaskForm from './components/TaskForm';
+import TaskProvider from './context/TaskProvider';
 
 function App(){
-  const [taskList, setTaskList ] = useState([]);
-  
-  const addTask = (task) => {
-    setTaskList([...taskList, task]);
-  }
-
   return (
     <main className="App">
       <h1>Lista de Tarefas</h1>
-      <TaskForm addTask={ addTask }/>
-      <ListTasks tasks={ taskList }/>
+      <TaskProvider>
+        <TaskForm />
+        <ListTasks />
+      </TaskProvider>
     </main>
     );
 }
