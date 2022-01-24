@@ -3,4 +3,4 @@ Identificador único do endereço e não poderá ser nulo.
 
 2. FOREIGN KEY
  
-3. NOT NULL 
+3. NOT NULL
